@@ -8,7 +8,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 	// 背景图片配置
 	src: {
 		// 桌面背景图片
-		desktop: "/assets/images/d1.webp",
+		desktop: "/assets/images/Fire.jpg",
 		// 移动背景图片
 		mobile: "/assets/images/m1.webp",
 	},
@@ -55,9 +55,9 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 		credit: {
 			enable: {
 				// 桌面端显示横幅图片来源文本
-				desktop: true,
+				desktop: false,
 				// 移动端显示横幅图片来源文本
-				mobile: true,
+				mobile: false,
 			},
 			text: {
 				// 桌面端要显示的来源文本
