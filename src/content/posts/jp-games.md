@@ -2,6 +2,7 @@
 title: 日区软件乱码解决
 published: 2024-09-11
 pinned: false
+image: https://cdn.jsdelivr.net/gh/WindSakura/imgs@main/imgs63c82ac83a8d056c.png
 description: Dlist日区
 tags: [Dlist, 日区, 乱码]
 draft: false
@@ -9,7 +10,6 @@ draft: false
 
 
 
-![DLsiteのロゴ](https://cdn.jsdelivr.net/gh/WindSakura/imgs@main/imgs63c82ac83a8d056c.png) 
 
 **先说结果，我用win10成功打开试玩DLsite日文游戏，没有乱码，不用改系统时区，也没用上Locale Emulator（可能是试玩的原因？希腊奶~）**
 

@@ -3,6 +3,7 @@
 title: OpenWrt - SDCard 分区扩容
 published: 2024-09-12
 pinned: false
+image: https://cdn.jsdelivr.net/gh/WindSakura/imgs@main/imgsF1AOijqaQAARoTH.jpg
 description: 本篇文章将介绍扩容 OpenWrt root 分区的内容，本文所述内容适用于以 SD 卡存储介质的 ARM 设备 (树莓派、NanoPi R2S 等)。
 tags: [OpenWrt, 扩容]
 draft: false
@@ -10,7 +11,6 @@ draft: false
 
 # OpenWrt - SDCard 分区扩容
 
-![F1AOijqaQAARoTH](https://cdn.jsdelivr.net/gh/WindSakura/imgs@main/imgsF1AOijqaQAARoTH.jpg)
 
 https://web.archive.org/web/20230323181845/https://mlapp.cn/1011.html 怎么有网页似了啊
 
