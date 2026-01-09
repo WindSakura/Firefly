@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /_astro/
+
+Sitemap: https://blog.yakum0.moe/sitemap-index.xml
