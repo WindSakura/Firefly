@@ -26,7 +26,7 @@ export const sponsorConfig: SponsorConfig = {
 			qrCode: "/assets/images/sponsor/alipay.png",
 			link: "",
 			description: "使用 支付宝 扫码赞助",
-			enabled: true,
+			enabled: false,
 		},
 		{
 			name: "微信",
@@ -37,10 +37,10 @@ export const sponsorConfig: SponsorConfig = {
 			enabled: true,
 		},
 		{
-			name: "ko-fi",
-			icon: "simple-icons:kofi",
+			name: "Donate",
+			icon: "simple-icons:stripe",
 			qrCode: "",
-			link: "https://ko-fi.com/cuteleaf",
+			link: "https://donate.yakum0.moe",
 			description: "Buy a Coffee for Firefly",
 			enabled: true,
 		},
@@ -50,7 +50,7 @@ export const sponsorConfig: SponsorConfig = {
 			qrCode: "",
 			link: "https://afdian.com/a/cuteleaf",
 			description: "通过 爱发电 进行赞助",
-			enabled: true,
+			enabled: false,
 		},
 	],
 
@@ -62,6 +62,7 @@ export const sponsorConfig: SponsorConfig = {
 			amount: "¥50",
 			date: "2025-10-01",
 			message: "感谢分享！",
+			enable: false,
 		},
 
 		// 示例：匿名赞助者
@@ -69,6 +70,7 @@ export const sponsorConfig: SponsorConfig = {
 			name: "匿名用户",
 			amount: "¥20",
 			date: "2025-10-01",
+			enable: false,
 		},
 	],
 };
