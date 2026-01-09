@@ -1,6 +1,6 @@
 ---
 title: 日区软件乱码解决
-published: 204-09-11
+data: 204-09-11
 pinned: false
 description: Dlist日区
 tags: [Markdown, Firefly, 博客, 主题, 模板]
