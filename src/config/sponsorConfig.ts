@@ -34,7 +34,7 @@ export const sponsorConfig: SponsorConfig = {
 			qrCode: "/assets/images/sponsor/wechat.png",
 			link: "",
 			description: "使用 微信 扫码赞助",
-			enabled: true,
+			enabled: false,
 		},
 		{
 			name: "Donate",
