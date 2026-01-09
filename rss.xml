@@ -1,162 +1,112 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>渲压抑了</title><description>Ae已爆炸</description><link>https://blog.yakum0.moe/</link><language>zh_CN</language><templateTheme>Firefly</templateTheme><templateThemeVersion>6.3.6</templateThemeVersion><templateThemeUrl>https://github.com/CuteLeaf/Firefly</templateThemeUrl><lastBuildDate>2026年1月9日 14:43:05</lastBuildDate><item><title>Firefly 一款清新美观的 Astro 博客主题模板</title><link>https://blog.yakum0.moe/posts/firefly/</link><guid isPermaLink="true">https://blog.yakum0.moe/posts/firefly/</guid><description>Firefly 是一款基于 Astro 框架和 Fuwari 模板开发的清新美观且现代化个人博客主题模板，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。</description><pubDate>Fri, 02 Jan 1970 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;🌟 项目概述&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Firefly&lt;/strong&gt; 是一款基于 Astro 框架和 Fuwari 模板开发的清新美观且现代化个人博客主题模板，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;🖥️在线预览： &lt;a href=&quot;https://firefly.cuteleaf.cn/&quot;&gt;Firefly - Demo site&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;🏠我的博客： &lt;a href=&quot;https://blog.cuteleaf.cn/&quot;&gt;https://blog.cuteleaf.cn&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;📝Firefly使用文档： &lt;a href=&quot;https://docs-firefly.cuteleaf.cn/&quot;&gt;https://docs-firefly.cuteleaf.cn&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;⭐Firefly开源地址：&lt;a href=&quot;https://github.com/CuteLeaf/Firefly&quot;&gt;https://github.com/CuteLeaf/Firefly&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;⭐Fuwari开源地址：&lt;a href=&quot;https://github.com/saicaca/fuwari&quot;&gt;https://github.com/saicaca/fuwari&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;::github{repo=&quot;CuteLeaf/Firefly&quot;}&lt;/p&gt;
-&lt;p&gt;::github{repo=&quot;saicaca/fuwari&quot;}&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;./images/1.webp&quot; alt=&quot;Firefly&quot; /&gt;&lt;/p&gt;
-&lt;h2&gt;🚀 技术架构&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;静态站点生成&lt;/strong&gt;: 基于 Astro ，提供极快的加载速度和优秀的 SEO 优化&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;TypeScript 支持&lt;/strong&gt;: 完整的类型安全，提升开发体验和代码质量&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;响应式设计&lt;/strong&gt;: 使用 Tailwind CSS 构建，完美适配桌面端和移动端&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;组件化开发&lt;/strong&gt;: 支持 Astro、Svelte 组件，灵活可扩展&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;📖 配置说明&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;📚 &lt;strong&gt;详细配置文档&lt;/strong&gt;: 查看 &lt;a href=&quot;https://docs-firefly.cuteleaf.cn/&quot;&gt;Firefly使用文档&lt;/a&gt; 获取完整的配置指南&lt;/p&gt;
-&lt;/blockquote&gt;
-</content:encoded><author>WindSakura</author></item><item><title>Firefly 简单使用指南</title><link>https://blog.yakum0.moe/posts/guide/</link><guid isPermaLink="true">https://blog.yakum0.moe/posts/guide/</guid><description>如何使用 Firefly 博客模板。</description><pubDate>Fri, 02 Jan 1970 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;这个博客模板是基于 &lt;a href=&quot;https://astro.build/&quot;&gt;Astro&lt;/a&gt; 构建的。对于本指南中未提及的内容，您可以在 &lt;a href=&quot;https://docs.astro.build/&quot;&gt;Astro 文档&lt;/a&gt; 中找到答案。&lt;/p&gt;
-&lt;h2&gt;文章的 Front-matter&lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;---
-title: 我的第一篇博客文章
-published: 2023-09-09
-description: 这是我新 Astro 博客的第一篇文章。
-image: ./cover.jpg
-tags: [前端, 开发]
-category: 前端开发
-draft: false
----
-&lt;/code&gt;&lt;/pre&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;属性&lt;/th&gt;
-&lt;th&gt;描述&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;title&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;文章标题。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;published&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;文章发布日期。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;updated&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;文章更新日期。如果未设置，将默认使用发布日期。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;pinned&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;是否将此文章置顶在文章列表顶部。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;description&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;文章的简短描述。显示在首页上。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;image&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;文章封面图片路径。&amp;lt;br/&amp;gt;1. 以 &lt;code&gt;http://&lt;/code&gt; 或 &lt;code&gt;https://&lt;/code&gt; 开头：使用网络图片&amp;lt;br/&amp;gt;2. 以 &lt;code&gt;/&lt;/code&gt; 开头：&lt;code&gt;public&lt;/code&gt; 目录中的图片&amp;lt;br/&amp;gt;3. 不带任何前缀：相对于 markdown 文件的路径&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;tags&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;文章标签。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;category&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;文章分类。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;lang&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;文章语言代码（如 &lt;code&gt;zh-CN&lt;/code&gt;）。仅当文章语言与站点默认语言不同时设置。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;licenseName&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;文章内容的许可证名称。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;licenseUrl&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;文章内容的许可证链接。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;author&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;文章作者。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;sourceLink&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;文章内容的来源链接或参考。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;draft&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;如果这篇文章仍是草稿，则不会显示。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;comment&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;是否启用此文章的评论功能。默认为 &lt;code&gt;true&lt;/code&gt;。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;slug&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;自定义文章 URL 路径。如果不设置，将使用文件名作为 URL。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2&gt;文章文件的放置位置&lt;/h2&gt;
-&lt;p&gt;您的文章文件应放置在 &lt;code&gt;src/content/posts/&lt;/code&gt; 目录中。您也可以创建子目录来更好地组织您的文章和资源。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;src/content/posts/
-├── post-1.md
-└── post-2/
-    ├── cover.png
-    └── index.md
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2&gt;自定义文章 URL (Slug)&lt;/h2&gt;
-&lt;h3&gt;什么是 Slug？&lt;/h3&gt;
-&lt;p&gt;Slug 是文章 URL 路径的自定义部分。如果不设置 slug，系统将使用文件名作为 URL。&lt;/p&gt;
-&lt;h3&gt;Slug 使用示例&lt;/h3&gt;
-&lt;h4&gt;示例 1：使用文件名作为 URL&lt;/h4&gt;
-&lt;pre&gt;&lt;code&gt;---
-title: 我的第一篇博客文章
-published: 2023-09-09
----
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;文件：&lt;code&gt;src/content/posts/my-first-blog-post.md&lt;/code&gt;
-URL：&lt;code&gt;/posts/my-first-blog-post&lt;/code&gt;&lt;/p&gt;
-&lt;h4&gt;示例 2：自定义 Slug&lt;/h4&gt;
-&lt;pre&gt;&lt;code&gt;---
-title: 我的第一篇博客文章
-published: 2023-09-09
-slug: hello-world
----
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;文件：&lt;code&gt;src/content/posts/my-first-blog-post.md&lt;/code&gt;
-URL：&lt;code&gt;/posts/hello-world&lt;/code&gt;&lt;/p&gt;
-&lt;h4&gt;示例 3：中文标题使用英文 Slug&lt;/h4&gt;
-&lt;pre&gt;&lt;code&gt;---
-title: 如何使用 Firefly 博客主题
-published: 2023-09-09
-slug: how-to-use-firefly-blog-theme
----
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;文件：&lt;code&gt;src/content/posts/firefly-guide.md&lt;/code&gt;
-URL：&lt;code&gt;/posts/how-to-use-firefly-blog-theme&lt;/code&gt;&lt;/p&gt;
-&lt;h3&gt;Slug 使用建议&lt;/h3&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>渲压抑了</title><description>Ae已爆炸</description><link>https://blog.yakum0.moe/</link><language>zh_CN</language><templateTheme>Firefly</templateTheme><templateThemeVersion>6.3.6</templateThemeVersion><templateThemeUrl>https://github.com/CuteLeaf/Firefly</templateThemeUrl><lastBuildDate>2026年1月9日 14:55:56</lastBuildDate><item><title>OpenWrt - SDCard 分区扩容</title><link>https://blog.yakum0.moe/posts/openwrtsd/</link><guid isPermaLink="true">https://blog.yakum0.moe/posts/openwrtsd/</guid><description>本篇文章将介绍扩容 OpenWrt root 分区的内容，本文所述内容适用于以 SD 卡存储介质的 ARM 设备 (树莓派、NanoPi R2S 等)。</description><pubDate>Thu, 12 Sep 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;OpenWrt - SDCard 分区扩容&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/WindSakura/imgs@main/imgsF1AOijqaQAARoTH.jpg&quot; alt=&quot;F1AOijqaQAARoTH&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;https://web.archive.org/web/20230323181845/https://mlapp.cn/1011.html 怎么有网页似了啊&lt;/p&gt;
+&lt;p&gt;本篇文章将介绍扩容 OpenWrt root 分区的内容，&lt;strong&gt;本文所述内容适用于以 SD 卡存储介质的 ARM 设备 (树莓派、NanoPi R2S 等)。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;将本项目 OpenWrt 固件刷入 SD 卡后，SD 卡内 boot 分区所占空间为 64M，root 分区所占空间为 960M，所以:&lt;/p&gt;
+&lt;p&gt;SD 卡总容量 - (64+960)M ≈ 空闲分区容量&lt;/p&gt;
+&lt;p&gt;虽然刷入固件的初始状态下空闲分区无法被利用，但在默认情况下，960M 的 root 分区完全能胜任日常使用。&lt;/p&gt;
+&lt;p&gt;若确有扩容 root 分区的需求，请按下文内容操作。&lt;/p&gt;
+&lt;p&gt;注意:&lt;/p&gt;
+&lt;p&gt;⚠️数据无价，在扩容操作前，&lt;strong&gt;请务必备份好 SD 卡内的重要数据&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;⚠️如确有扩容需求，&lt;strong&gt;请尽量在刷入固件后即进行分区扩容操作&lt;/strong&gt;，这样不仅可以避免文件丢失 (因为刚刷完固件什么重要文件都没有)，在一定程度上还可加快分区扩容速度。&lt;/p&gt;
+&lt;h2&gt;Squashfs&lt;/h2&gt;
+&lt;p&gt;对于 squashfs 固件，我们可以在暂未使用的空闲空间上新建一个分区，之后将 overlay 分区中的内容拷贝到这个分区，然后将系统在 overlay 分区的挂载点修改为刚刚新建的分区来进行扩容。&lt;/p&gt;
+&lt;p&gt;⚠️由于 Squashfs 固件涉及到文件迁移，所以 请尽量在刷入固件后即进行分区扩容操作。&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;使用英文和连字符&lt;/strong&gt;：&lt;code&gt;my-awesome-post&lt;/code&gt; 而不是 &lt;code&gt;my awesome post&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;保持简洁&lt;/strong&gt;：避免过长的 slug&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;具有描述性&lt;/strong&gt;：让 URL 能够反映文章内容&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;避免特殊字符&lt;/strong&gt;：只使用字母、数字和连字符&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;保持一致性&lt;/strong&gt;：在整个博客中使用相似的命名模式&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在“系统 - 软件包”中查看 rootfs 剩余空间为 600M&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/WindSakura/imgs@main/imgsimgsimage-20241113154531178.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在“系统 - 磁盘管理”中找到 SD 卡设备 (/dev/mmcblk0)，点击“修改” »&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/WindSakura/imgs@main/imgsimage-20241113154553211.png&quot; alt=&quot;image-20241113154553211&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/WindSakura/imgs@main/imgsimage-20241113154604654.png&quot; alt=&quot;image-20241113154604654&quot; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在分区信息中可以看出 SD 卡中有 14.83G 的空闲空间，点击右侧“新建”按钮新建分区 »&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/WindSakura/imgs@main/imgsimage-20241113154614512.png&quot; alt=&quot;image-20241113154614512&quot; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;分区新建完成，点击“格式化” »&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/WindSakura/imgs@main/imgsimage-20241113154625315.png&quot; alt=&quot;image-20241113154625315&quot; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;选择 ext4 分区作为新分区的文件系统 »&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/WindSakura/imgs@main/imgsimage-20241113154637025.png&quot; alt=&quot;image-20241113154637025&quot; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;分区已成功格式化为 ext4 格式 »&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/WindSakura/imgs@main/imgsimage-20241113154647577.png&quot; alt=&quot;image-20241113154647577&quot; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;进入 OpenWrt 的 TTYD 或 SSH，进行迁移文件操作 »&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# 将刚刚新建的 /dev/mmcblk0p3 分区挂载至 /mnt
+root@OpenWrt:/# mount /dev/mmcblk0p3 /mnt
+
+# 查看分区挂载情况
+root@OpenWrt:/# lsblk
+NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+loop0         7:0    0 760.8M  0 loop /overlay
+mmcblk0     179:0    0  14.9G  0 disk 
+├─mmcblk0p1 179:1    0    64M  0 part /boot
+├─mmcblk0p2 179:2    0   960M  0 part /rom
+└─mmcblk0p3 179:3    0  13.8G  0 part /mnt
+
+# 将 /overlay 分区下的所有文件拷贝至刚刚建立好的分区内
+root@OpenWrt:/# cp -f -a /overlay/. /mnt
+
+# 查看是否拷贝成功
+root@OpenWrt:/# ls -a /mnt
+.           ..          .fs_state   lost+found  upper       work
+root@OpenWrt:/# ls -a /overlay
+.          ..         .fs_state  upper      work
+
+# 同步文件
+root@OpenWrt:/# sync
+
+# 卸载 /dev/mmcblk0p3 分区
+root@OpenWrt:/# umount /mnt
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;前往“系统 - 挂载点”，点击“生成配置” »&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/WindSakura/imgs@main/imgsimage-20241113154706143.png&quot; alt=&quot;image-20241113154706143&quot; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在“挂载点”中我们可以看到刚刚创建好的 ext4 分区 /dev/mmcblk0p3，点击右方“修改” »&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/WindSakura/imgs@main/imgsimage-20241113154716766.png&quot; alt=&quot;image-20241113154716766&quot; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在接下来的界面中，“启用此挂载点”并选择“作为外部 overlay 使用”，点击“保存&amp;amp;应用” »&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/WindSakura/imgs@main/imgsimage-20241113154726231.png&quot; alt=&quot;image-20241113154726231&quot; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在“系统 - 挂载点”页面下，确认挂载点已启用 (打钩)，并确认挂载点为 /overlay，点击下方“保存&amp;amp;应用”，之后重启 OpenWrt »&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/WindSakura/imgs@main/imgsimage-20241113154740333.png&quot; alt=&quot;image-20241113154740333&quot; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;验证分区扩容成功 »&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/WindSakura/imgs@main/imgsimage-20241113154748805.png&quot; alt=&quot;image-20241113154748805&quot; /&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;root@OpenWrt:/# lsblk
+NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+loop0         7:0    0 760.8M  0 loop /mnt/loop0
+mmcblk0     179:0    0  14.9G  0 disk 
+├─mmcblk0p1 179:1    0    64M  0 part /boot
+├─mmcblk0p2 179:2    0   960M  0 part /rom
+└─mmcblk0p3 179:3    0  13.8G  0 part /overlay
+
+root@OpenWrt:/# mount | grep overlay
+/dev/mmcblk0p3 on /overlay type ext4 (rw,relatime)
+overlayfs:/overlay on / type overlay (rw,noatime,lowerdir=/,upperdir=/overlay/upper,workdir=/overlay/work)
+overlayfs:/overlay on /opt/docker type overlay (rw,noatime,lowerdir=/,upperdir=/overlay/upper,workdir=/overlay/work)
+
+root@OpenWrt:/# df -h | grep overlay
+/dev/mmcblk0p3           13.5G     42.2M     12.8G   0% /overlay
+overlayfs:/overlay       13.5G     42.2M     12.8G   0% /
+overlayfs:/overlay       13.5G     42.2M     12.8G   0% /opt/docker
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3&gt;注意事项&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Slug 一旦设置并发布，建议不要随意更改，以免影响 SEO 和已存在的链接&lt;/li&gt;
-&lt;li&gt;如果多个文章使用相同的 slug，后面的文章会覆盖前面的&lt;/li&gt;
-&lt;li&gt;Slug 会自动转换为小写&lt;/li&gt;
-&lt;/ul&gt;
 </content:encoded><author>WindSakura</author></item><item><title>日区软件乱码解决</title><link>https://blog.yakum0.moe/posts/jp-games/</link><guid isPermaLink="true">https://blog.yakum0.moe/posts/jp-games/</guid><description>Dlist日区</description><pubDate>Wed, 11 Sep 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/WindSakura/imgs@main/imgs63c82ac83a8d056c.png&quot; alt=&quot;DLsiteのロゴ&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;先说结果，我用win10成功打开试玩DLsite日文游戏，没有乱码，不用改系统时区，也没用上Locale Emulator（可能是试玩的原因？希腊奶~）&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;以下是方法&lt;/strong&gt;&lt;/p&gt;
@@ -617,6 +567,27 @@ console.log(&apos;抱歉，你知道我在第几行吗?&apos;)
 &lt;pre&gt;&lt;code&gt;console.log(&apos;来自第5行的问候!&apos;)
 console.log(&apos;我在第6行&apos;)
 &lt;/code&gt;&lt;/pre&gt;
+</content:encoded><author>WindSakura</author></item><item><title>Firefly 一款清新美观的 Astro 博客主题模板</title><link>https://blog.yakum0.moe/posts/firefly/</link><guid isPermaLink="true">https://blog.yakum0.moe/posts/firefly/</guid><description>Firefly 是一款基于 Astro 框架和 Fuwari 模板开发的清新美观且现代化个人博客主题模板，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。</description><pubDate>Fri, 02 Jan 1970 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;🌟 项目概述&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Firefly&lt;/strong&gt; 是一款基于 Astro 框架和 Fuwari 模板开发的清新美观且现代化个人博客主题模板，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;🖥️在线预览： &lt;a href=&quot;https://firefly.cuteleaf.cn/&quot;&gt;Firefly - Demo site&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;🏠我的博客： &lt;a href=&quot;https://blog.cuteleaf.cn/&quot;&gt;https://blog.cuteleaf.cn&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;📝Firefly使用文档： &lt;a href=&quot;https://docs-firefly.cuteleaf.cn/&quot;&gt;https://docs-firefly.cuteleaf.cn&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;⭐Firefly开源地址：&lt;a href=&quot;https://github.com/CuteLeaf/Firefly&quot;&gt;https://github.com/CuteLeaf/Firefly&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;⭐Fuwari开源地址：&lt;a href=&quot;https://github.com/saicaca/fuwari&quot;&gt;https://github.com/saicaca/fuwari&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;::github{repo=&quot;CuteLeaf/Firefly&quot;}&lt;/p&gt;
+&lt;p&gt;::github{repo=&quot;saicaca/fuwari&quot;}&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;./images/1.webp&quot; alt=&quot;Firefly&quot; /&gt;&lt;/p&gt;
+&lt;h2&gt;🚀 技术架构&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;静态站点生成&lt;/strong&gt;: 基于 Astro ，提供极快的加载速度和优秀的 SEO 优化&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;TypeScript 支持&lt;/strong&gt;: 完整的类型安全，提升开发体验和代码质量&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;响应式设计&lt;/strong&gt;: 使用 Tailwind CSS 构建，完美适配桌面端和移动端&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;组件化开发&lt;/strong&gt;: 支持 Astro、Svelte 组件，灵活可扩展&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;📖 配置说明&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;📚 &lt;strong&gt;详细配置文档&lt;/strong&gt;: 查看 &lt;a href=&quot;https://docs-firefly.cuteleaf.cn/&quot;&gt;Firefly使用文档&lt;/a&gt; 获取完整的配置指南&lt;/p&gt;
+&lt;/blockquote&gt;
 </content:encoded><author>WindSakura</author></item><item><title>KaTeX 数学公式示例</title><link>https://blog.yakum0.moe/posts/katex-math-example/</link><guid isPermaLink="true">https://blog.yakum0.moe/posts/katex-math-example/</guid><description>展示 Firefly 主题对 KaTeX 数学公式的支持，包括行内公式、块级公式和复杂数学符号。</description><pubDate>Fri, 02 Jan 1970 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;本文展示了 &lt;a href=&quot;https://github.com/CuteLeaf/Firefly&quot;&gt;Firefly&lt;/a&gt; 主题对 KaTeX 数学公式的渲染支持。&lt;/p&gt;
 &lt;h2&gt;行内公式 (Inline)&lt;/h2&gt;
 &lt;p&gt;行内公式使用单个 &lt;code&gt;$&lt;/code&gt; 符号包裹。&lt;/p&gt;
@@ -789,6 +760,144 @@ $$&lt;/p&gt;
 &lt;p&gt;export const year = new Date().getFullYear()&lt;/p&gt;
 &lt;p&gt;今年是 {year} 年。&lt;/p&gt;
 &lt;p&gt;更多信息，请查看 &lt;a href=&quot;https://mdxjs.com/&quot;&gt;MDX 文档&lt;/a&gt;&lt;/p&gt;
+</content:encoded><author>WindSakura</author></item><item><title>Firefly 简单使用指南</title><link>https://blog.yakum0.moe/posts/guide/</link><guid isPermaLink="true">https://blog.yakum0.moe/posts/guide/</guid><description>如何使用 Firefly 博客模板。</description><pubDate>Fri, 02 Jan 1970 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;这个博客模板是基于 &lt;a href=&quot;https://astro.build/&quot;&gt;Astro&lt;/a&gt; 构建的。对于本指南中未提及的内容，您可以在 &lt;a href=&quot;https://docs.astro.build/&quot;&gt;Astro 文档&lt;/a&gt; 中找到答案。&lt;/p&gt;
+&lt;h2&gt;文章的 Front-matter&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;---
+title: 我的第一篇博客文章
+published: 2023-09-09
+description: 这是我新 Astro 博客的第一篇文章。
+image: ./cover.jpg
+tags: [前端, 开发]
+category: 前端开发
+draft: false
+---
+&lt;/code&gt;&lt;/pre&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;属性&lt;/th&gt;
+&lt;th&gt;描述&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;title&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;文章标题。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;published&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;文章发布日期。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;updated&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;文章更新日期。如果未设置，将默认使用发布日期。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;pinned&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;是否将此文章置顶在文章列表顶部。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;description&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;文章的简短描述。显示在首页上。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;image&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;文章封面图片路径。&amp;lt;br/&amp;gt;1. 以 &lt;code&gt;http://&lt;/code&gt; 或 &lt;code&gt;https://&lt;/code&gt; 开头：使用网络图片&amp;lt;br/&amp;gt;2. 以 &lt;code&gt;/&lt;/code&gt; 开头：&lt;code&gt;public&lt;/code&gt; 目录中的图片&amp;lt;br/&amp;gt;3. 不带任何前缀：相对于 markdown 文件的路径&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;tags&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;文章标签。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;category&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;文章分类。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;lang&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;文章语言代码（如 &lt;code&gt;zh-CN&lt;/code&gt;）。仅当文章语言与站点默认语言不同时设置。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;licenseName&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;文章内容的许可证名称。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;licenseUrl&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;文章内容的许可证链接。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;author&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;文章作者。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;sourceLink&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;文章内容的来源链接或参考。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;draft&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;如果这篇文章仍是草稿，则不会显示。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;comment&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;是否启用此文章的评论功能。默认为 &lt;code&gt;true&lt;/code&gt;。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;slug&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;自定义文章 URL 路径。如果不设置，将使用文件名作为 URL。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;文章文件的放置位置&lt;/h2&gt;
+&lt;p&gt;您的文章文件应放置在 &lt;code&gt;src/content/posts/&lt;/code&gt; 目录中。您也可以创建子目录来更好地组织您的文章和资源。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;src/content/posts/
+├── post-1.md
+└── post-2/
+    ├── cover.png
+    └── index.md
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;自定义文章 URL (Slug)&lt;/h2&gt;
+&lt;h3&gt;什么是 Slug？&lt;/h3&gt;
+&lt;p&gt;Slug 是文章 URL 路径的自定义部分。如果不设置 slug，系统将使用文件名作为 URL。&lt;/p&gt;
+&lt;h3&gt;Slug 使用示例&lt;/h3&gt;
+&lt;h4&gt;示例 1：使用文件名作为 URL&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;---
+title: 我的第一篇博客文章
+published: 2023-09-09
+---
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;文件：&lt;code&gt;src/content/posts/my-first-blog-post.md&lt;/code&gt;
+URL：&lt;code&gt;/posts/my-first-blog-post&lt;/code&gt;&lt;/p&gt;
+&lt;h4&gt;示例 2：自定义 Slug&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;---
+title: 我的第一篇博客文章
+published: 2023-09-09
+slug: hello-world
+---
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;文件：&lt;code&gt;src/content/posts/my-first-blog-post.md&lt;/code&gt;
+URL：&lt;code&gt;/posts/hello-world&lt;/code&gt;&lt;/p&gt;
+&lt;h4&gt;示例 3：中文标题使用英文 Slug&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;---
+title: 如何使用 Firefly 博客主题
+published: 2023-09-09
+slug: how-to-use-firefly-blog-theme
+---
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;文件：&lt;code&gt;src/content/posts/firefly-guide.md&lt;/code&gt;
+URL：&lt;code&gt;/posts/how-to-use-firefly-blog-theme&lt;/code&gt;&lt;/p&gt;
+&lt;h3&gt;Slug 使用建议&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;使用英文和连字符&lt;/strong&gt;：&lt;code&gt;my-awesome-post&lt;/code&gt; 而不是 &lt;code&gt;my awesome post&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;保持简洁&lt;/strong&gt;：避免过长的 slug&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;具有描述性&lt;/strong&gt;：让 URL 能够反映文章内容&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;避免特殊字符&lt;/strong&gt;：只使用字母、数字和连字符&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;保持一致性&lt;/strong&gt;：在整个博客中使用相似的命名模式&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;注意事项&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Slug 一旦设置并发布，建议不要随意更改，以免影响 SEO 和已存在的链接&lt;/li&gt;
+&lt;li&gt;如果多个文章使用相同的 slug，后面的文章会覆盖前面的&lt;/li&gt;
+&lt;li&gt;Slug 会自动转换为小写&lt;/li&gt;
+&lt;/ul&gt;
 </content:encoded><author>WindSakura</author></item><item><title>Markdown Mermaid 图表</title><link>https://blog.yakum0.moe/posts/markdown-mermaid/</link><guid isPermaLink="true">https://blog.yakum0.moe/posts/markdown-mermaid/</guid><description>一个包含 Mermaid 的 Markdown 博客文章简单示例。</description><pubDate>Thu, 01 Jan 1970 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Markdown 中 Mermaid 图表完整指南&lt;/h1&gt;
 &lt;p&gt;本文演示如何在 Markdown 文档中使用 Mermaid 创建各种复杂图表，包括流程图、时序图、甘特图、类图和状态图。&lt;/p&gt;
 &lt;h2&gt;流程图示例&lt;/h2&gt;
